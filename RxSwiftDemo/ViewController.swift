@@ -45,6 +45,24 @@ class ViewController: UIViewController {
     }
     
     //MARK: -------- Setup Resource
+    
+    let tableViewCellIdentifier = "NewDrugCell"
+    // UITableview DataSource
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return UITableViewCell()
+    }
+    // UITableview Delegate
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
 
 }
 
