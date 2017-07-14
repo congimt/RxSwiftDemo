@@ -21,6 +21,30 @@ class ViewController: UIViewController {
     }
 
     //MARK: -------- 
+    
+    //MARK: -------- IBOutlet
+    
+    
+    //MARK: -------- Variable
+    
+    //MARK: -------- The App life cycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.setupUI()
+        
+    }
+    //MARK: -------- IBAction
+    
+    //MARK: -------- Setup Interface
+    func setupUI(){
+        
+    }
+    func setText(){
+        
+    }
+    
+    //MARK: -------- Setup Resource
 
 }
 
