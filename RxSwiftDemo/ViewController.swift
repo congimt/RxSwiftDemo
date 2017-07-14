@@ -10,17 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: -------- IBOutlet
+    
+    
+    //MARK: -------- Variable
+    
+    //MARK: -------- The App life cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello")
+        self.setupUI()
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK: -------- IBAction
+    
+    //MARK: -------- Setup Interface
+    func setupUI(){
+        
     }
-
-    //MARK: -------- 
+    func setText(){
+        
+    }
+    
+    //MARK: -------- Setup Resource
 
 }
 
