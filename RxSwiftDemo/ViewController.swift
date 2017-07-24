@@ -29,11 +29,6 @@ class ViewController: UIViewController {
     
     //MARK: -------- The App life cycle
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.setupUI()
-        
-    }
     //MARK: -------- IBAction
     
     //MARK: -------- Setup Interface
@@ -43,7 +38,10 @@ class ViewController: UIViewController {
     func setText(){
         
     }
+    //1
+    //2
     
+    //3
     //MARK: -------- Setup Resource
     
     let tableViewCellIdentifier = "NewDrugCell"
