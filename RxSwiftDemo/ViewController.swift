@@ -63,6 +63,14 @@ class ViewController: UIViewController {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
+    
+    //All
+    
+    //b
+    
+    
+    //c
+    
 
 }
 
